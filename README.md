@@ -14,7 +14,7 @@ API RESTful para cadastro e gerenciamento de pedidos de clientes, desenvolvida e
 
 ## Como acessar o Banco de Dados:
 
-Em **JDBC URL** cole `jdbc:h2:mem:checkpoint1`
+Em **JDBC URL** cole `jdbc:h2:mem:checkpoint1` e depois clique em "conect".
 
 ![Login Bando de Dados](docs/image.png)
 
