@@ -9,8 +9,8 @@ API RESTful para cadastro e gerenciamento de pedidos de clientes, desenvolvida e
 ## Como Executar
 1. Navegue até a pasta do projeto
 2. Execute o comando: `mvn spring-boot:run`
-3. Acesse o Banco de Dados da API em: [localhost:8080/h2-console/login.do](http://localhost:8080/h2-console/login.do)
-4. Acesse os pedidos da API em: [localhost:8080/pedidos](http://localhost:8080/pedidos)
+3. Acesse o Banco de Dados da API em: <http://localhost:8080/h2-console/login.do>
+4. Acesse os pedidos da API em: <http://localhost:8080/pedidos>
 
 ## Como acessar o Banco de Dados:
 
@@ -45,9 +45,9 @@ Em **JDBC URL** cole `jdbc:h2:mem:checkpoint1` e depois clique em "connect".
 
 **Campos Obrigatórios:**
 
-- clienteNome (string, não vazio)
+- `clienteNome` (string, não vazio)
 
-- valorTotal (número, não negativo)
+- `valorTotal` (número, não negativo)
 
 **Exemplo no Postman:**
 
@@ -109,10 +109,13 @@ Em **JDBC URL** cole `jdbc:h2:mem:checkpoint1` e depois clique em "connect".
 ![Pedido Buscado](docs/image5.png)
 
 ### 4.  Atualizar Pedido (PUT)
+
 **Endpoint:**  
 `PUT http://localhost:8080/pedidos/{id}`
 
-**Corpo da Requisição:**
+**Observação:** O `id` no corpo da requisição deve coincidir com o `id` da URL.
+
+**Corpo da Requisição: ATUALIZADO**
 ```json
 {
     "id": 5,
