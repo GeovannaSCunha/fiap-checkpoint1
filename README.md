@@ -12,6 +12,11 @@ API RESTful para cadastro e gerenciamento de pedidos de clientes, desenvolvida e
 3. Acesse o Banco de Dados da API em: [localhost:8080/h2-console/login.do](http://localhost:8080/h2-console/login.do)
 4. Acesse os pedidos da API em: [localhost:8080/pedidos](http://localhost:8080/pedidos)
 
+## Como acessar o Banco de Dados:
+
+Em **JDBC URL** cole `jdbc:h2:mem:checkpoint1`
+![Login Bando de Dados](docs/image.png)
+
 
 ## Endpoints
 
