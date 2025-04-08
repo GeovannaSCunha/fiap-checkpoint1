@@ -127,7 +127,11 @@ Em **JDBC URL** cole `jdbc:h2:mem:checkpoint1` e depois clique em "connect".
 
 **Exemplo no Postman:**
 
+**ANTES**
+
 ![Pedido Buscado](docs/image6.png)
+
+**DEPOIS**
 
 ![Pedido Buscado](docs/image7.png)
 
