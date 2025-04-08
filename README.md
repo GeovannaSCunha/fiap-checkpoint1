@@ -56,7 +56,8 @@ API RESTful para cadastro e gerenciamento de pedidos de clientes, desenvolvida e
 
 ## Exemplos de Requests/Responses
 
-### 1. Criar Pedido (POST)
-**Request:** POST http://localhost:8080/pedidos
-É só preencher a requisição em formato JSON e com as informações obrigatórias das coluna:
+### 1. Criar Novo Pedido (POST)
+**Endpoint:**  
+`POST http://localhost:8080/pedidos`
+
 ![Criação de Pedido](docs/image1.png)
