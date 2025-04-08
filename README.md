@@ -74,6 +74,7 @@ API RESTful para cadastro e gerenciamento de pedidos de clientes, desenvolvida e
 ![Lista de pedidos](docs/image2.png)
 
 **Resposta via Query no Banco de Dados:**
+
 ![Lista de pedidos](docs/image3.png)
 
 ### 3.  Buscar Pedido por ID (GET)
@@ -98,6 +99,7 @@ API RESTful para cadastro e gerenciamento de pedidos de clientes, desenvolvida e
 ![Pedido Buscado](docs/image4.png)
 
 **Resposta via Query no Banco de Dados:**
+
 ![Pedido Buscado](docs/image5.png)
 
 ### 4.  Atualizar Pedido (PUT)
@@ -133,4 +135,5 @@ Resposta de Sucesso:
 ![Pedido Buscado](docs/image8.png)
 
 **Resposta via Query no Banco de Dados:**
+
 ![Pedido Buscado](docs/image9.png)
